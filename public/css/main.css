@@ -1,0 +1,17 @@
+/***** 공통사항 *****/
+body{background-color:rgb(32, 44, 54); }
+.wrap {max-width:1000px; margin:0 auto;padding-top:200px; }
+.wrap div{text-align: center;}
+h2{font-weight: 500;}
+
+.left{width: 49%;margin-right:1%;border: 5px solid rgb(240, 76, 76);height: 550px; float: left; background-color:rgb(255, 244, 235);}
+.left .txt{margin-top:180px;}
+.left .txt button{margin-top:40px; }
+
+.right{position: relative; width:49%;border: 5px solid rgb(78, 119, 252);height: 550px;float: right;background-color:rgb(255, 244, 235);}
+.right .txt{}
+.right .txt h2{float: left;}
+.right .txt button{float: right;}
+.right .bottom{bottom:8%;position: absolute;width:100%; border-top:1px solid #ccc;padding-top:30px;  }
+.right .bottom input{margin-right:20px; }
+.right .bottom button{}
